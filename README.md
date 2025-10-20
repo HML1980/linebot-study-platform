@@ -94,14 +94,3 @@ npm start
 ## 授權
 
 [MIT](LICENSE)
-```
-
-## 3. 專案基本檔案結構
-
-建立完專案後，您可以按照 README 中的結構來組織檔案。首先建立最基本的目錄結構：
-```
-mkdir -p server/controllers server/models server/routes server/config
-mkdir -p line-bot/handlers line-bot/templates line-bot/events
-mkdir -p liff-app/public liff-app/src/components liff-app/src/pages liff-app/src/services liff-app/src/styles
-mkdir -p data/chinese data/english data/business-admin data/law-intro data/management data/economics
-touch .env package.json
